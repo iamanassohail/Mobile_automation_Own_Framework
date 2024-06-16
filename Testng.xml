@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Islamic Finder Test Suites-->
+<suite name="Regression Suite">
+    <test name = "Testing Flows">
+        <classes>
+            <class name="testcases.Scn1Test">
+                <methods>
+                    <include name="Test_1"/>
+                </methods>
+            </class>
+            <class name="testcases.Scn2Test">
+                <methods>
+                    <include name="Test_2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

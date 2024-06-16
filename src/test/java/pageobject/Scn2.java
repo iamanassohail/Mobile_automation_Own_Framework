@@ -17,8 +17,7 @@ import java.util.Random;
 
 public class Scn2 extends BaseTest {
 
-    @Test
-    public void scenario2Test() throws InterruptedException {
+    public static void scenario2Test() throws InterruptedException {
         // Navigate back to home screen
         driver.navigate().back();
 

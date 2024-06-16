@@ -14,7 +14,7 @@ import java.net.URL;
 
 public class BaseTest {
 
-    protected AppiumDriver driver;
+    protected static AppiumDriver driver;
     @BeforeClass
     public AppiumDriver setup() throws IOException {
         DesiredCapabilities capabilities = CapabilitiesManager.getCapabilities();
