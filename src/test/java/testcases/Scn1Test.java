@@ -6,7 +6,7 @@ import pageobject.Scn1;
 
 public class Scn1Test extends BaseTest {
     @Test
-    public static void Test_1() throws InterruptedException {
+    public static void TestCase_1() throws InterruptedException {
         Scn1.scenario1Test();
     }
 
